@@ -95,7 +95,7 @@ kserve:
       tag: 2.6.2
     mlserver:
       image: docker.io/seldonio/mlserver
-      tag: 1.5.0
+      tag: 1.6.0
       modelClassPlaceholder: "{{.Labels.modelClass}}"
     sklearnserver:
       image: kserve/sklearnserver
